@@ -1,0 +1,139 @@
+/* Desktop screens (usually larger than 1200px) */
+@media screen and (min-width: 1200px) {
+    li.search-box {
+        width: 265px;
+        padding: 1.4rem 0.5rem;
+    }
+}
+
+/* Landscape mode for iPads/tablets */
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
+
+/* Portrait mode for iPads/tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .list-view-block ul li img {
+        max-width: 100%;
+    }
+
+    .list-view-block ul li p {
+        margin-bottom: 20px;
+    }
+
+    .list-page-main {
+        padding: 20px;
+    }
+}
+
+/* Mobile devices (phones) */
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+
+    .owl-carousel .owl-item img {
+        min-height: 300px;
+        object-fit: cover;
+
+    }
+
+    .banner-content h4 {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+
+    .brand img {
+        width: 80px;
+        height: 55px;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        object-fit: fill;
+    }
+
+    .navigation {
+        padding: 0rem;
+    }
+
+    .sub-menu-link li a {
+        font-size: 1.5rem;
+    }
+
+    li.search-box {
+        padding: 2rem 2rem;
+        background-color: #fff;
+    }
+
+    .subNav {
+        padding: 2rem 20px;
+    }
+
+    header .nav-container nav {
+        justify-content: unset;
+        z-index: 111;
+        align-items: unset;
+        flex-direction: column;
+    }
+
+    .sub-menu-link {
+        flex-wrap: wrap;
+    }
+
+    .info-box h5 {
+        margin-bottom: 30px;
+    }
+
+    .sub-footer {
+        padding: 1.5rem 15px;
+    }
+
+    footer .bg-primary {
+        padding: 4rem 15px;
+    }
+
+    .sub-menu-link li:first-child {
+        flex: 100%;
+    }
+
+    .shopping-cart-icon {
+        padding: 15px
+    }
+
+    /* .nav-cart-menu-block{
+        justify-content: unset;
+        align-items: unset;
+        flex-direction: column;
+        background: #fff;
+        position: fixed;
+        bottom: 0;
+        top: 52px;
+    } */
+    .list-page-main {
+        padding: 20px;
+    }
+
+    .list-view-block ul li {
+        flex-direction: column;
+    }
+
+    .list-view-block ul li img {
+        max-width: 100%;
+    }
+
+    .product-deatils-block ul li {
+        flex-direction: column;
+    }
+
+    .footer-info-section {
+        padding: 20px;
+    }
+
+    .section-container {
+        padding: 20px;
+    }
+
+    .product-deatils-block ul li p:after {
+        content: unset;
+        position: absolute;
+        right: 0;
+    }
+}
